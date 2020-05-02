@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TeleGraphs</string>
+
+    <string name="activity_statistics">Statistics</string>
+    <string name="action_toggle_mode">Toggle night mode</string>
+    <string name="label_followers">Followers</string>
+    <string name="btn_open_default_json">Open Default JSON</string>
+    <string name="btn_open_json_file">Open JSON file</string>
+    <string name="title_select_file">Select a file</string>
+    <string name="title_choose_chart">Choose a chart</string>
+</resources>

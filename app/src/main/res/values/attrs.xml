@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ChartView">
+        <attr name="labelColor" format="reference|color" />
+        <attr name="gridColor" format="reference|color" />
+        <attr name="markerLineColor" format="reference|color" />
+        <attr name="bubbleBgColor" format="reference|color" />
+        <attr name="bubbleShadowColor" format="reference|color" />
+        <attr name="bubbleTextDateColor" format="reference|color" />
+    </declare-styleable>
+    <declare-styleable name="ChartScrollerView">
+        <attr name="overlayColor" format="reference|color" />
+        <attr name="carriageColor" format="reference|color" />
+        <attr name="carriageLeftPercent" format="float" />
+        <attr name="carriageRightPercent" format="float" />
+    </declare-styleable>
+</resources>

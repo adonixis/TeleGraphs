@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#517DA2</color>
+    <color name="colorPrimaryDark">#426382</color>
+    <color name="colorAccent">#3896D4</color>
+
+    <color name="chart_bg">#FFFFFF</color>
+    <color name="window_bg">#F0F0F0</color>
+    <color name="title_text">#FFFFFF</color>
+    <color name="text">#000000</color>
+
+    <color name="chart_label">#96A2AA</color>
+    <color name="chart_marker_line">#E5EBEF</color>
+    <color name="chart_bubble_bg">#FFFFFF</color>
+    <color name="chart_bubble_shadow">#D8D8D8</color>
+    <color name="chart_bubble_text_date">#222222</color>
+    <color name="chart_grid">#F1F1F2</color>
+    <color name="chart_scroller_overlay">#B3F5F8F9</color>
+    <color name="chart_scroller_carriage">#80DBE7F0</color>
+</resources>

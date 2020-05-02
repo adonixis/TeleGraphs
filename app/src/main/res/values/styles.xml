@@ -1,0 +1,55 @@
+<resources>
+
+<!--
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background</item>
+        &lt;!&ndash;<item name="android:textColorPrimary">@color/text</item>&ndash;&gt;
+        <item name="android:titleTextStyle">@style/MyTitleTextStyle</item>
+    </style>
+-->
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/window_bg</item>
+
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+
+
+
+        <!--<item name="android:textColorPrimary">@color/title_text</item>-->
+
+<!--        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>-->
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.DarkToolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+
+    <!--    <style name="Widget.Styled.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+            <item name="titleTextStyle">@style/ActionBarTitleText</item>
+            <item name="subtitleTextStyle">@style/ActionBarSubTitleText</item>
+        </style>
+
+        <style name="ActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+            <item name="android:textColor">@color/title_text</item>
+            <item name="android:textSize">12sp</item>
+        </style>
+
+        <style name="ActionBarSubTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+            <item name="android:textColor">@color/title_text</item>
+            <item name="android:textSize">12sp</item>
+        </style>-->
+
+</resources>
